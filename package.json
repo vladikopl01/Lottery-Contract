@@ -16,6 +16,9 @@
     "deploy:localhost": "npx hardhat run scripts/deploy.ts --network localhost",
     "deploy:rinkeby": "npx hardhat run scripts/deploy.ts --network rinkeby"
   },
+  "engines": {
+    "node": ">=16.0.0"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
